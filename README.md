@@ -33,7 +33,7 @@ imageをdockerhub等から入手すると良いが、
     docker exec -it {コンテナ名} bash
 
     #Laravelのインストール（初期操作以外は必要無し）
-    laravel/laravel {プロジェクト名} "8.*"
+    composer create-project laravel/laravel {プロジェクト名} "8.*"
 
     #このままだとアクセスできないので権限を変更
     chmod 777 -R storage/
