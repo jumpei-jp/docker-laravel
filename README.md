@@ -1,4 +1,4 @@
-version 1.0.0
+version 1.0.1
 
 # docker_Laravel
 template file to create laravel env using docker  
